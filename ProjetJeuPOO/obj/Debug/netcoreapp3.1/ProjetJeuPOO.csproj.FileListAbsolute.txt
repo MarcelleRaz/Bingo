@@ -1,0 +1,42 @@
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.exe
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.deps.json
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.json
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.dev.json
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.dll
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfoInputs.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfo.cs
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.CoreCompileInputs.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.dll
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.genruntimeconfig.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.AssemblyReference.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.exe
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.deps.json
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.json
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.dev.json
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.dll
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.AssemblyReference.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfoInputs.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfo.cs
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.CoreCompileInputs.cache
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.dll
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
+C:\Users\patri\OneDrive\_CSF_\_Rebon numérique_\_Formation_\_Cours_\2-ApplicationNative\G-Projet\Projet II\FrameProjet\ProjetJeuPOO\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.genruntimeconfig.cache
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.exe
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.deps.json
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.json
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.dev.json
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.dll
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.AssemblyReference.cache
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.GeneratedMSBuildEditorConfig.editorconfig
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfoInputs.cache
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfo.cs
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.CoreCompileInputs.cache
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.dll
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.genruntimeconfig.cache
