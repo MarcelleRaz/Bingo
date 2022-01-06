@@ -12,7 +12,5 @@ namespace ProjetJeuPOO.Bingo
 		public abstract void add(BingoBall element);			
 		public abstract bool isEmpty();
 		public abstract int getSize();
-
-		
     }
 }
