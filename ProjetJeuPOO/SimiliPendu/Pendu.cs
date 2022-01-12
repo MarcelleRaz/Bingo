@@ -45,7 +45,6 @@ namespace ProjetJeuPOO.SimiliPendu
         {    
             nVictoire = nPoint / 3;
             nTournoie = nVictoire/ 3;
-            Console.WriteLine(nPartie / 3);
         }
          public void AfficherGagnant()
         {
@@ -245,6 +244,11 @@ namespace ProjetJeuPOO.SimiliPendu
                 Console.WriteLine("*******************************************************************");
                 Console.WriteLine("Bravo! Vous avez trouvé le mot!");
                 Console.WriteLine("*******************************************************************");
+                if (nPoint % 3 == 0)
+                {
+                    nVictoire = nPartie / 3;
+                    Console.WriteLine("Vous avez obtenue {0} victoire(s).",nVictoire);
+                }
                 menuPendu();
             }
             if (reponse != motatrouver && essai < 5)
