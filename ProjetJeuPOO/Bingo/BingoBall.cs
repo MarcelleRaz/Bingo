@@ -10,14 +10,11 @@ namespace ProjetJeuPOO.Bingo
     {
         private int number;
         private char letter;
-        private Random rand;
 
         public BingoBall()
         {
-            rand = new Random();
         }
         public int Number { get => number; set => number = value; }
         public char Letter { get => letter; set => letter = value; }
-        public Random Rand { get => rand; set => rand = value; }
     }
 }
