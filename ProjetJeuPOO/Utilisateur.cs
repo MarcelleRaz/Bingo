@@ -12,7 +12,7 @@ namespace ProjetJeuPOO
         private static int nbcard;
         public Utilisateur()
         {
-            infoUser = new string [3,3];
+            infoUser = new string [3,4];
         }
         public string Nom { get => nom; set => nom = value; }
         public static int Nbcard { get => nbcard; set => nbcard = value; }

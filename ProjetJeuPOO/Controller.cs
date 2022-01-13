@@ -10,6 +10,7 @@ namespace ProjetJeuPOO
         Utilisateur user = new Utilisateur();
         ProgramBingo bingo = new ProgramBingo();
         Pendu jeupendu = new Pendu();
+        BlackJackController blackjack = new BlackJackController();
         static void Main(string[] args)
         {
             Controller program = new Controller();
@@ -33,6 +34,8 @@ namespace ProjetJeuPOO
             user.InfoUser[2, 0] = "Pendu";
             user.InfoUser[0, 1] = Convert.ToString(bingo.BingoPartie);
             user.InfoUser[0, 2] = Convert.ToString(bingo.NbBingo);
+            user.InfoUser[1, 1] = Convert.ToString(blackjack.NbPartie);
+            user.InfoUser[1, 2] = Convert.ToString(blackjack.Score);
             user.InfoUser[2, 1] = Convert.ToString(jeupendu.NPartie);
             user.InfoUser[2, 2] = Convert.ToString(jeupendu.NVictoire);
         }
@@ -40,15 +43,20 @@ namespace ProjetJeuPOO
         {
             user.InfoUser[0, 1] = Convert.ToString(bingo.BingoPartie);
             user.InfoUser[0, 2] = Convert.ToString(bingo.NbBingo);
+            user.InfoUser[0, 3] = "";
+            user.InfoUser[1, 1] = Convert.ToString(blackjack.NbPartie);
+            user.InfoUser[1, 2] = Convert.ToString(blackjack.Score);
+            user.InfoUser[1, 3] = Convert.ToString(blackjack.NbTournoie);
             user.InfoUser[2, 1] = Convert.ToString(jeupendu.NPartie);
-            user.InfoUser[2, 2] = Convert.ToString(jeupendu.NVictoire);
+            user.InfoUser[2, 3] = Convert.ToString(jeupendu.NPoint);
+            user.InfoUser[2, 3] = Convert.ToString(jeupendu.NVictoire);
             Console.WriteLine("*****************************************************");
             Console.WriteLine("Nom: " + user.Nom);
             Console.WriteLine("*****************************************************");
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("\t" + "\t" + "Parties jouées"+"\t"+"\t"+"Nb de victoires");
-                Console.WriteLine(user.InfoUser[i, 0] + "\t" + "\t" + user.InfoUser[i, 1] + "\t" + "\t" + "\t" + user.InfoUser[i, 2]);
+                Console.WriteLine("\t" + "\t" + "Parties jouées"+"\t"+"\t"+"Nb de point"+"\t"+"\t"+"Nb de victoires");
+                Console.WriteLine(user.InfoUser[i, 0] + "\t" + "\t" + user.InfoUser[i, 1] + "\t" + "\t" + "\t" + user.InfoUser[i, 2]+ "\t" + "\t" + "\t" + user.InfoUser[i, 3]);
             }
             Console.WriteLine("*****************************************************");
         }
@@ -72,7 +80,7 @@ namespace ProjetJeuPOO
                     bingo.menuBingo();
                     return;
                 case "2":
-                    //blackjack
+                    blackjack.menuBJ();
                     break;
                 case "3":
                     jeupendu.menuPendu();

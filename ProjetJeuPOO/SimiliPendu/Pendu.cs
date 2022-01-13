@@ -9,10 +9,10 @@ namespace ProjetJeuPOO.SimiliPendu
     public class Pendu : IPendu
     {
         private int [,] infopenduUser;
-        private int nTournoie; //nb tournoies gagnées
+        private int nTournoie; //nb tournoies gagnées=3 victoires
         private int nPartie; //nb parties jouées
         private int nPoint;// nb points gagnées
-        private int nVictoire; // nb victoire=nb tournoies gagnées
+        private int nVictoire; // nb victoire=3points
         private ListeDeMots mot;
         private Random rand;
         private char[] motenchar;
