@@ -218,10 +218,6 @@ namespace ProjetJeuPOO.SimiliBlackJack
             int jeu = rand.Next(listecarte.LisCard.Count());
             hand.Jeu.Add(listecarte.LisCard[jeu]);
             listecarte.LisCard.RemoveAt(jeu);
-            for (int i = 0; i < hand.Jeu.Count; i++)
-            {
-                Console.WriteLine(hand.Jeu[i]);
-            }
             menuencours();
         }
         public void conservermise()

@@ -54,7 +54,7 @@ namespace ProjetJeuPOO.SimiliPendu
             infopenduUser[0, 2] = nPoint;
             infopenduUser[0, 3] = nVictoire;
             Console.WriteLine("Partie"+"\t"+"Points"+"\t"+"Victoires"+"\t"+"Tournoies gagnées");
-            Console.WriteLine(infopenduUser[0, 1]+"\t"+ infopenduUser[0, 2]+"\t"+infopenduUser[0,3]+"\t"+ infopenduUser[0, 0]);
+            Console.WriteLine(infopenduUser[0, 1]+"\t"+ infopenduUser[0, 2]+"\t"+infopenduUser[0,3]+"\t"+ "\t" + infopenduUser[0, 0]);
         }
        
         public void menuPendu()

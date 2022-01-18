@@ -22,7 +22,7 @@ namespace ProjetJeuPOO.Bingo
         public BingoCard(int numero)
         {
             this.numCard = numero;
-            card1 = new int[5,5];
+            card1 = new int[5, 5];
             card2 = new int[5, 5];
             card3 = new int[5, 5];
             card4 = new int[5, 5];
