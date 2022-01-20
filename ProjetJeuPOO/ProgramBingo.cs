@@ -279,14 +279,15 @@ namespace ProjetJeuPOO
         }
         public BingoBall classerball()
         {
+            bool isok = false;
             if (ball.Number<=15 && ball.Number >= 1)
             {
                 for(int i = 0; i < valB_a.Count; i++)
                 {
-                    if (valB_a[i] == 0)
+                    if (valB_a[i] == 0 && isok==false)
                     {
                         valB_a[i]=(ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -294,10 +295,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valI_a.Count; i++)
                 {
-                    if (valI_a[i] == 0)
+                    if (valI_a[i] == 0 && isok==false)
                     {
                         valI_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -305,10 +306,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valN_a.Count; i++)
                 {
-                    if (valN_a[i] == 0)
+                    if (valN_a[i] == 0 && isok==false)
                     {
                         valN_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -316,10 +317,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valG_a.Count; i++)
                 {
-                    if (valG_a[i] == 0)
+                    if (valG_a[i] == 0 && isok==false)
                     {
                         valG_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -327,10 +328,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valO_a.Count; i++)
                 {
-                    if (valO_a[i] == 0)
+                    if (valO_a[i] == 0 && isok==false)
                     {
                         valO_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
