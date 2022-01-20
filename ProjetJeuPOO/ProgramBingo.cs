@@ -21,10 +21,14 @@ namespace ProjetJeuPOO
         private List<int> valO_a;
         private int bingoPartie;
         private int nbBingo;
+        private List<int> listball;
+        private Random rand;
+        private bool menuppl;
 
         public ProgramBingo()
         {
             ball = new BingoBall();
+            rand = new Random();
             bingoannonceur = new ArrayList();
             entete = new string[5] { "B", "I", "N", "G", "O" };
             bingoCarduser = new BingoCard(numcard);
@@ -34,7 +38,8 @@ namespace ProjetJeuPOO
             valN_a = new List<int>();
             valG_a = new List<int>();
             valO_a = new List<int>();
-            for (int i = 0; i < 20; i++)
+            menuppl = false;
+            for (int i = 0; i <15; i++)
             {
                 valB_a.Add(0);
                 valI_a.Add(0);
@@ -51,11 +56,10 @@ namespace ProjetJeuPOO
             bingoPartie = 0;
         }
         public ArrayList Bingoannonceur { get => bingoannonceur; set => bingoannonceur = value; }
-
-
         public BingoCard BingoCarduser { get => bingoCarduser; set => bingoCarduser = value; }
         public int NbBingo { get => nbBingo; set => nbBingo = value; }
         public int BingoPartie { get => bingoPartie; set => bingoPartie = value; }
+        public bool Menuppl { get => menuppl; set => menuppl = value; }
 
         public void menuBingo()
         {
@@ -68,11 +72,11 @@ namespace ProjetJeuPOO
             Console.WriteLine("3- Visualiser la carte de l'annonceur");
             Console.WriteLine("4- Tirer une boule");
             Console.WriteLine("5- Fin de partie");
-            choixmenuBingo();
-        }
-        public void choixmenuBingo()
-        {
             string choice = Console.ReadLine();
+            choixmenuBingo(choice);
+        }
+        public void choixmenuBingo(string choice)
+        {
             bool erreur = false;
 
             switch (choice)
@@ -105,16 +109,29 @@ namespace ProjetJeuPOO
                 erreur = false;
                 Console.WriteLine("Veuillez choisir parmi les numéros ci-dessus.");
             }
-            choixmenuBingo();
+            choixmenuBingo(choice);
         }
         public void initBingo()
         {
             bingoPartie++;
+            bingoCarduser.Card1 = null;
+            bingoCarduser.Card2 = null;
+            bingoCarduser.Card3 = null;
+            bingoCarduser.Card4 = null;
+            listball = new List<int>();
             Console.WriteLine("Vous avez droit à un maximum de 4 cartes. Combien de carte désirez-vous avoir?");
             Utilisateur.Nbcard = verifchoixnbCard();
             Console.WriteLine($"Vous avez {Utilisateur.Nbcard} cartes.");
             multiplecard();
+            remplirboulier();
             menuBingo();
+        }
+        public void remplirboulier()
+        {
+            for (int i = 0; i < 75; i++)
+            {
+                listball.Add(i + 1);
+            }
         }
         public int verifchoixnbCard()
         {
@@ -171,7 +188,7 @@ namespace ProjetJeuPOO
             }
             Console.WriteLine("\n");
             trierNumAnnonceur();
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 15; i++)
             {
                 Console.WriteLine(valB_a[i] + "\t" + valI_a[i] + "\t" + valN_a[i] + "\t" + valG_a[i] + "\t" + valO_a[i]);
             }
@@ -179,20 +196,16 @@ namespace ProjetJeuPOO
         }
         public void tirerboule()
         {
-            int x = ball.Rand.Next(1, 75);
-            while (valB_a.Contains(x)||valI_a.Contains(x)||valN_a.Contains(x)||valG_a.Contains(x)||valO_a.Contains(x))
-            {
-                x = ball.Rand.Next(1, 75);
-            }
-            
-            Console.WriteLine($"Vous avez tiré la boule {x}");
-            changerNumannonceur(x);
-            verifcarduser(x);
+            int index = rand.Next(listball.Count);
+            Console.WriteLine($"Vous avez tiré la boule {listball[index]}");
+            changerNumannonceur(listball[index]);
+            verifcarduser(listball[index]);
+            listball.Remove(listball[index]);
             menuBingo();
         }
-        public void changerNumannonceur(int x)
+        public void changerNumannonceur(int num)
         {
-            ball.Number = x;
+            ball.Number = num;
             classerball();
             trierNumAnnonceur();
         }
@@ -250,30 +263,31 @@ namespace ProjetJeuPOO
                 if(tempocard[i, 0].Equals(0) && tempocard[i, 1].Equals(0) && tempocard[i, 2].Equals(0) && tempocard[i, 3].Equals(0)&& tempocard[i, 4].Equals(0))
                 {
                     nbBingo++;
-                    Console.WriteLine("Vous avez un BINGO!");
+                    Console.WriteLine("Vous avez "+ nbBingo +" BINGO!");
                 }
             }
             if (tempocard[0, 0].Equals(0) && tempocard[3, 3].Equals(0)&& tempocard[1, 1].Equals(0)&& tempocard[4, 4].Equals(0))
             {
                 nbBingo++;
-                Console.WriteLine("Vous avez un BINGO!");
+                Console.WriteLine("Vous avez " + nbBingo + " BINGO!");
             }
             if (tempocard[4, 0].Equals(0) && tempocard[3, 1].Equals(0) && tempocard[1,3].Equals(0) && tempocard[0, 4].Equals(0))
             {
                 nbBingo++;
-                Console.WriteLine("Vous avez un BINGO!");
+                Console.WriteLine("Vous avez " + nbBingo + " BINGO!");
             }
         }
         public BingoBall classerball()
         {
+            bool isok = false;
             if (ball.Number<=15 && ball.Number >= 1)
             {
                 for(int i = 0; i < valB_a.Count; i++)
                 {
-                    if (valB_a[i] == 0)
+                    if (valB_a[i] == 0 && isok==false)
                     {
                         valB_a[i]=(ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -281,10 +295,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valI_a.Count; i++)
                 {
-                    if (valI_a[i] == 0)
+                    if (valI_a[i] == 0 && isok==false)
                     {
                         valI_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -292,10 +306,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valN_a.Count; i++)
                 {
-                    if (valN_a[i] == 0)
+                    if (valN_a[i] == 0 && isok==false)
                     {
                         valN_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -303,10 +317,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valG_a.Count; i++)
                 {
-                    if (valG_a[i] == 0)
+                    if (valG_a[i] == 0 && isok==false)
                     {
                         valG_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -314,10 +328,10 @@ namespace ProjetJeuPOO
             {
                 for (int i = 0; i < valO_a.Count; i++)
                 {
-                    if (valO_a[i] == 0)
+                    if (valO_a[i] == 0 && isok==false)
                     {
                         valO_a[i] = (ball.Number);
-                        break;
+                        isok = true;
                     }
                 }
             }
@@ -393,7 +407,7 @@ namespace ProjetJeuPOO
             switch (choice)
             {
                 case "1":
-                    break;
+                    break;               
                 case "2":
                     initBingo();
                     break;

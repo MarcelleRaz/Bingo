@@ -32,7 +32,6 @@ F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\Pro
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.runtimeconfig.dev.json
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.dll
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\bin\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
-F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.AssemblyReference.cache
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.GeneratedMSBuildEditorConfig.editorconfig
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfoInputs.cache
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.AssemblyInfo.cs
@@ -40,3 +39,4 @@ F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\Pro
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.dll
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.pdb
 F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.genruntimeconfig.cache
+F:\exo_BackEnd\Projet Bingo\ProjetBingo\ProjetJeuPOO\obj\Debug\netcoreapp3.1\ProjetJeuPOO.csproj.AssemblyReference.cache
